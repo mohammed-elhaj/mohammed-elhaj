@@ -62,5 +62,5 @@
     <rect class="bar" x="340" y="-16" width="10" height="32"  rx="5" style="animation-delay:-0.38s"/>
   </g>
 
-  <text x="1136" y="270" text-anchor="end" class="ar" direction="rtl">أبني وكلاء صوت يتكلمون العربية</text>
+  <text x="1136" y="270" text-anchor="end" class="ar">أبني وكلاء صوت يتكلمون العربية</text>
 </svg>
