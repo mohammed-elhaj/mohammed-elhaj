@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Mohammed Elhaj — AI Engineer, real-time Arabic voice AI">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Mohammed Elhaj — AI Engineer: LLM agents, RAG, evals and real-time voice">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0b1020"/>
@@ -36,9 +36,9 @@
 
   <!-- text -->
   <text x="64" y="118" class="name">Mohammed Elhaj</text>
-  <text x="66" y="160" class="role">AI Engineer · Real-time Arabic Voice AI · LLM Agents &amp; RAG</text>
+  <text x="66" y="160" class="role">AI Engineer · LLM Agents · RAG · Evals · Real-time Voice</text>
   <circle cx="72" cy="214" r="6" class="dot"/>
-  <text x="88" y="219" class="tag">listening → thinking → speaking   |   STT → LLM → TTS over SIP</text>
+  <text x="88" y="219" class="tag">agents that retrieve, reason and act — shipped to production</text>
 
   <!-- voice waveform -->
   <g transform="translate(760,150)">
@@ -62,5 +62,5 @@
     <rect class="bar" x="340" y="-16" width="10" height="32"  rx="5" style="animation-delay:-0.38s"/>
   </g>
 
-  <text x="1136" y="270" text-anchor="end" class="ar">أبني وكلاء صوت يتكلمون العربية</text>
+  <text x="1136" y="270" text-anchor="end" class="ar">أبني وكلاء ذكاء اصطناعي ينجزون المهام بالعربية</text>
 </svg>
