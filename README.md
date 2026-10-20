@@ -50,19 +50,9 @@ class MohammedElhaj:
 
 ### 🧩 How I build agents
 
-```mermaid
-flowchart LR
-    subgraph CH["Channels"]
-        P["📞 Phone · SIP"]
-        W["🌐 Web widget"]
-        M["💬 WhatsApp · Telegram"]
-    end
-    CH <--> A["🤖 LLM agent<br/>reasoning · memory · tool use"]
-    A <-->|retrieve| R["🔎 RAG<br/>hybrid search · citations"]
-    A <-->|act| T["🔧 Tools<br/>APIs · CRMs · bookings · tickets"]
-    A --> E["🧪 Evals & observability<br/>judges · benchmarks · latency"]
-    E -.->|improve prompts, flows, models| A
-```
+<p align="center">
+  <img src="assets/agent_architecture.svg" alt="Channels connect to an LLM agent that retrieves with RAG, acts through tools, and is improved by evals and observability" width="100%"/>
+</p>
 
 ---
 
