@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Mohammed Elhaj — AI Engineer, real-time Arabic voice AI">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#101a33"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.5" r="0.45">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .bar { fill: url(#wave); transform-box: fill-box; transform-origin: center; animation: talk 1.4s ease-in-out infinite; }
+      @keyframes talk { 0%,100% { transform: scaleY(0.25); } 50% { transform: scaleY(1); } }
+      .name { font: 700 54px 'Segoe UI', Inter, Helvetica, Arial, sans-serif; fill: #f8fafc; letter-spacing: 0.5px; }
+      .role { font: 500 22px 'Segoe UI', Inter, Helvetica, Arial, sans-serif; fill: #a5b4fc; }
+      .ar { font: 600 26px 'Segoe UI', Tahoma, Arial, sans-serif; fill: #e2e8f0; }
+      .tag { font: 500 15px ui-monospace, 'Cascadia Code', Consolas, monospace; fill: #94a3b8; }
+      .dot { fill: #22c55e; animation: pulse 1.6s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.25; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#glow)"/>
+
+  <!-- grid -->
+  <g stroke="#1e293b" stroke-width="1" opacity="0.6">
+    <path d="M0 60H1200M0 120H1200M0 180H1200M0 240H1200"/>
+    <path d="M100 0V300M200 0V300M300 0V300M400 0V300M500 0V300M600 0V300M700 0V300M800 0V300M900 0V300M1000 0V300M1100 0V300"/>
+  </g>
+
+  <!-- text -->
+  <text x="64" y="118" class="name">Mohammed Elhaj</text>
+  <text x="66" y="160" class="role">AI Engineer · Real-time Arabic Voice AI · LLM Agents &amp; RAG</text>
+  <circle cx="72" cy="214" r="6" class="dot"/>
+  <text x="88" y="219" class="tag">listening → thinking → speaking   |   STT → LLM → TTS over SIP</text>
+
+  <!-- voice waveform -->
+  <g transform="translate(760,150)">
+    <rect class="bar" x="0"   y="-20" width="10" height="40"  rx="5" style="animation-delay:-0.10s"/>
+    <rect class="bar" x="20"  y="-38" width="10" height="76"  rx="5" style="animation-delay:-0.30s"/>
+    <rect class="bar" x="40"  y="-60" width="10" height="120" rx="5" style="animation-delay:-0.55s"/>
+    <rect class="bar" x="60"  y="-44" width="10" height="88"  rx="5" style="animation-delay:-0.20s"/>
+    <rect class="bar" x="80"  y="-78" width="10" height="156" rx="5" style="animation-delay:-0.70s"/>
+    <rect class="bar" x="100" y="-52" width="10" height="104" rx="5" style="animation-delay:-0.40s"/>
+    <rect class="bar" x="120" y="-90" width="10" height="180" rx="5" style="animation-delay:-0.90s"/>
+    <rect class="bar" x="140" y="-66" width="10" height="132" rx="5" style="animation-delay:-0.15s"/>
+    <rect class="bar" x="160" y="-82" width="10" height="164" rx="5" style="animation-delay:-0.60s"/>
+    <rect class="bar" x="180" y="-48" width="10" height="96"  rx="5" style="animation-delay:-0.35s"/>
+    <rect class="bar" x="200" y="-70" width="10" height="140" rx="5" style="animation-delay:-0.80s"/>
+    <rect class="bar" x="220" y="-40" width="10" height="80"  rx="5" style="animation-delay:-0.25s"/>
+    <rect class="bar" x="240" y="-58" width="10" height="116" rx="5" style="animation-delay:-0.50s"/>
+    <rect class="bar" x="260" y="-30" width="10" height="60"  rx="5" style="animation-delay:-0.05s"/>
+    <rect class="bar" x="280" y="-46" width="10" height="92"  rx="5" style="animation-delay:-0.45s"/>
+    <rect class="bar" x="300" y="-22" width="10" height="44"  rx="5" style="animation-delay:-0.65s"/>
+    <rect class="bar" x="320" y="-34" width="10" height="68"  rx="5" style="animation-delay:-0.12s"/>
+    <rect class="bar" x="340" y="-16" width="10" height="32"  rx="5" style="animation-delay:-0.38s"/>
+  </g>
+
+  <text x="1136" y="270" text-anchor="end" class="ar" direction="rtl">أبني وكلاء صوت يتكلمون العربية</text>
+</svg>
