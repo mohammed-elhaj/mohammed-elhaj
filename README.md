@@ -86,12 +86,3 @@ class MohammedElhaj:
   <b>LLMs:</b> OpenAI · Gemini · Groq · open models &nbsp;|&nbsp;
   <b>Retrieval:</b> BM25 · dense · hybrid fusion · ChromaDB
 </p>
-
----
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mohammed-elhaj&show_icons=true&hide_border=true&theme=tokyonight&count_private=true" height="165" alt="GitHub stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohammed-elhaj&layout=compact&hide_border=true&theme=tokyonight" height="165" alt="Top languages"/>
-</p>
-
-<p align="center"><i>"أبني وكلاء صوت يتكلمون العربية" — I build voice agents that speak Arabic.</i></p>
